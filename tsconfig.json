@@ -1,0 +1,36 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": ["ESNext", "DOM"],
+    "jsx": "react-native",
+    "strict": true,
+    "moduleResolution": "bundler",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["myappvs/*"]
+    },
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "types": ["react", "react-native", "expo"]
+  },
+
+  "include": [
+    "./**/*"
+  ],
+
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "jest.config.js",
+    "metro.config.js",
+    "**/__mocks__/*",
+    "**/__tests__/*"
+  ]
+}

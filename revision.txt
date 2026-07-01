@@ -1,0 +1,348 @@
+Perfect decision.
+Stopping **to revise + test understanding** is exactly how weak concepts become **solid skills**.
+
+Below are **clean, virtual notes** — short, structured, exam-ready, and practical.
+Read slowly. This is your **CSS foundation file**.
+
+---
+
+# 🧠 VIRTUAL NOTES — HTML + CSS (FROM START)
+
+---
+
+## 🌐 1️⃣ WHAT IS HTML?
+
+**HTML = structure of a webpage**
+
+It tells the browser:
+
+* What is heading
+* What is paragraph
+* What is image, table, form, etc.
+
+📌 HTML does **NOT** design — only structure.
+
+---
+
+## 🧱 BASIC HTML STRUCTURE
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Title</title>
+</head>
+<body>
+
+  Content here
+
+</body>
+</html>
+```
+
+### Meaning:
+
+* `<!DOCTYPE html>` → HTML5
+* `<head>` → page info, CSS
+* `<body>` → visible content
+
+---
+
+## 🧾 COMMON HTML TAGS
+
+| Tag           | Use            |
+| ------------- | -------------- |
+| `<h1> – <h6>` | Headings       |
+| `<p>`         | Paragraph      |
+| `<br>`        | Line break     |
+| `<img>`       | Image          |
+| `<a>`         | Link           |
+| `<ul>`        | Unordered list |
+| `<ol>`        | Ordered list   |
+| `<li>`        | List item      |
+| `<table>`     | Table          |
+| `<form>`      | Form           |
+
+---
+
+## 🎨 2️⃣ WHAT IS CSS?
+
+**CSS = design + layout**
+
+It controls:
+
+* Color
+* Size
+* Spacing
+* Position
+* Layout (rows, columns)
+
+📌 CSS makes HTML **look professional**.
+
+---
+
+## 🧷 CSS SYNTAX
+
+```css
+selector {
+  property: value;
+}
+```
+
+Example:
+
+```css
+p {
+  color: blue;
+}
+```
+
+---
+
+## 🎯 3️⃣ SELECTORS (VERY IMPORTANT)
+
+### Element selector
+
+```css
+p { color: red; }
+```
+
+### Class selector
+
+```css
+.section { padding: 20px; }
+```
+
+HTML:
+
+```html
+<div class="section"></div>
+```
+
+### ID selector
+
+```css
+#title { color: green; }
+```
+
+HTML:
+
+```html
+<h1 id="title"></h1>
+```
+
+📌 **ID = one element**
+📌 **Class = many elements**
+
+---
+
+## 🎨 4️⃣ COLORS IN CSS
+
+### Named colors
+
+```css
+color: red;
+```
+
+### Hex colors
+
+```css
+color: #f2f2f2;
+```
+
+### RGB
+
+```css
+color: rgb(255, 0, 0);
+```
+
+📌 RGB = Red, Green, Blue (0–255)
+
+---
+
+## 📦 5️⃣ CSS BOX MODEL (CORE CONCEPT)
+
+Every element is a box:
+
+```
+Margin → outside space
+Border → box edge
+Padding → inside space
+Content → text/image
+```
+
+### Margin
+
+```css
+margin-bottom: 20px;
+```
+
+### Padding
+
+```css
+padding: 15px;
+```
+
+### Border
+
+```css
+border: 2px solid black;
+```
+
+### Border-radius
+
+```css
+border-radius: 10px;
+```
+
+📌 **Margin ≠ Padding** (exam question)
+
+---
+
+## 🧭 6️⃣ TEXT ALIGNMENT
+
+```css
+text-align: center;
+```
+
+✔ Centers text
+❌ Does NOT center divs
+
+---
+
+## 🧱 7️⃣ CENTERING A DIV (IMPORTANT)
+
+### Method 1: margin auto
+
+```css
+.section {
+  width: 80%;
+  margin: auto;
+}
+```
+
+---
+
+## 📐 8️⃣ FLEXBOX (LAYOUT KING 👑)
+
+### Parent controls layout
+
+```css
+.cards {
+  display: flex;
+}
+```
+
+### Make row
+
+```css
+display: flex;
+```
+
+### Center items
+
+```css
+justify-content: center;
+```
+
+### Space between items
+
+```css
+gap: 20px;
+```
+
+📌 **Flex always goes on parent**
+
+---
+
+## 🧩 9️⃣ CARDS (REAL WEBSITE USE)
+
+HTML:
+
+```html
+<div class="cards">
+  <div class="card">Card</div>
+</div>
+```
+
+CSS:
+
+```css
+.cards {
+  display: flex;
+}
+
+.card {
+  width: 200px;
+}
+```
+
+---
+
+## 📊 1️⃣0️⃣ TABLE STYLING
+
+```css
+table {
+  border-collapse: collapse;
+}
+```
+
+### Zebra rows
+
+```css
+tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+```
+
+📌 `even` = 2nd, 4th, 6th rows
+
+---
+
+## 🧪 1️⃣1️⃣ HOVER EFFECT
+
+```css
+tr:hover {
+  background-color: lightblue;
+}
+```
+
+Hover = mouse over
+
+---
+
+## 📝 1️⃣2️⃣ FORMS BASIC
+
+```css
+input {
+  width: 100%;
+  padding: 10px;
+}
+```
+
+---
+
+# ✅ QUICK SELF-CHECK (ANSWER IN HEAD)
+
+✔ Difference between class and id
+✔ Margin vs padding
+✔ Why cards appear in row
+✔ Why text-align doesn’t center divs
+✔ What display:flex does
+
+If you can answer these → **you are learning correctly**
+
+---
+
+## 📅 NEXT STEP (WHEN YOU’RE READY)
+
+Next we will do:
+
+* **MCQs**
+* **Short questions**
+* **Mini practical test**
+
+No rush.
+When ready, just say:
+
+👉 **“Test me”**

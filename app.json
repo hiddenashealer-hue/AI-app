@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "MyAppVS",
+    "slug": "myappvs",
+    "version": "0.1.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTabletMode": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "plugins": [
+      [
+        "expo-av",
+        {
+          "microphonePermission": "Allow MyAppVS to access your microphone."
+        }
+      ]
+    ]
+  }
+}
