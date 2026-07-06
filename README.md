@@ -1,58 +1,30 @@
 # 🤖 AI App
 
-An AI-powered web application for generating images and videos using modern AI technologies. This project is being developed to explore AI integration, modern frontend development, and user-friendly design.
+An AI-powered web application developed as a personal learning project to explore image and video generation using modern AI technologies.
 
----
+## Status
 
-## 🚀 Features
+📦 This project was developed in 2025 and is currently not under active development while I focus on other projects.
 
-- 🖼 Generate AI-powered images
-- 🎥 Generate AI-powered videos
-- 💻 Responsive and modern user interface
-- ⚡ Fast and interactive experience
-- 🔄 Continuous improvements and new features
+## Features
 
----
+- AI image generation
+- AI video generation
+- React-based frontend
+- TypeScript
 
-## 🛠 Technologies Used
+## Technologies
 
 - React
 - TypeScript
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
-- Git & GitHub
 
----
+## Purpose
 
-## 🎯 Project Goal
+This project helped me learn how AI-powered applications work and strengthened my frontend development skills using React and TypeScript.
 
-The goal of this project is to build a practical AI-powered application while improving my skills in React, TypeScript, and modern web development.
+## Author
 
----
-
-## 📈 Current Status
-
-🚧 This project is currently under active development. New features and improvements are being added regularly.
-
----
-
-## 🔮 Future Improvements
-
-- User authentication
-- Save generated images and videos
-- Prompt history
-- Download manager
-- Enhanced AI model integrations
-
----
-
-## 👩‍💻 Author
-
-**Fizza Abdul Razzaq**
-
-WordPress Developer | WooCommerce | Python Learner | AI Enthusiast
-
-📧 Email: hiddenashealer@gmail.com
-
-💼 LinkedIn: https://www.linkedin.com/in/fizza-abdul-razzaq-109ab6341
+Fizza Abdul Razzaq
