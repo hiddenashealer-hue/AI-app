@@ -1,30 +1,39 @@
 # 🤖 AI App
 
-An AI-powered web application developed as a personal learning project to explore image and video generation using modern AI technologies.
+An AI-powered web application developed as a personal learning project to explore AI image and video generation using modern web technologies.
 
-## Status
+## Project Status
 
-📦 This project was developed in 2025 and is currently not under active development while I focus on other projects.
+✅ Learning project completed in 2025.
+
+This project is no longer under active development as I am currently focused on building WordPress, WooCommerce, and AI-based web applications.
 
 ## Features
 
 - AI image generation
 - AI video generation
+- Responsive user interface
 - React-based frontend
-- TypeScript
+- TypeScript implementation
 
-## Technologies
+## Technologies Used
 
 - React
 - TypeScript
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JavaScript
 
-## Purpose
+## What I Learned
 
-This project helped me learn how AI-powered applications work and strengthened my frontend development skills using React and TypeScript.
+- Building React applications
+- Working with TypeScript
+- Designing responsive interfaces
+- Organizing frontend project structure
+- Understanding AI-powered web application workflows
 
 ## Author
 
-Fizza Abdul Razzaq
+**Fizza Abdul Razzaq**
+
+WordPress Developer | WooCommerce | Python Learner
